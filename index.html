@@ -10,23 +10,42 @@
 </head>
 
 <body>
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="/" class="navbar-brand">
+					Whiskey Drop
+				</a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="/">Home</a></li>
+				<li><a href="/">About</a></li>
+				<li class="visible-xs"><a href="/login">Sign In</a></li>
+			</ul>
+			<div class="navbar-header navbar-right hidden-xs">
+				<a href="/login" class="btn btn-default navbar-btn">Sign In</a>
+				<p class="navbar-text"><i>Great whiskey delivered to your door!</i></p>
+			</div>
+		</div>
+	</nav>
 	<article class="container">
 		<div class="row">
 			<div class="col-xs-12">
-				<section class="callout">
+				<section class="callout jumbotron text-center">
 					<h1>The finest whiskeys delivered to your doorstep.</h1>
-					<p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s>$19.99</s> <strong><mark>First one is free!</mark></strong></p>
+					<p class="lead">Sign up today to start receiving the world's best whiskeys every month. <s class="hidden-xs">$19.99</s> <span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
 					<p><button class="btn btn-lg btn-success">Sign Up!</button></p>
 					<p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
 				</section>
 			</div>
 		</div>
-		<hr>
 
 		<section class="favorites">
 			<div class="row">
 				<div class="col-xs-12">
-					<h1>Monthly Favorites:</h1>
+					<div class="page-header">
+						<h2>Monthly Favorites:</h2>
+					</div>
 					<p class="lead">Here are the top five whiskeys for this month!</p>
 				</div>
 			</div>
@@ -69,39 +88,51 @@
 				</div>
 			</div>
 		</section>
-		<hr>
 
 		<section class="quotes">
 			<div class="row">
 				<div class="col-xs-12">
-					<h2 class="text-uppercase">Quotes:</h2>
+					<div class="page-header">
+						<h2>Quotes:</h2>
+					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-xs-12 col-md-6">
-					<div class="quote">
-						<blockquote class="quote">
-							<p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
-							<footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
-						</blockquote>
+					<div class="media">
+						<div class="media-left hidden-xs">
+							<img src="images/girl-image.png" class="img-circle media-object" height="100" width="100" />
+						</div>
+						<div class="media-body">
+							<blockquote class="quote">
+								<p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+								<footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
+							</blockquote>
+						</div>
 					</div>
 				</div>
 				<div class="col-xs-12 col-md-6">
-					<div class="quote">
-						<blockquote class="quote">
-							<p>I haven't been sober for months!</p>
-							<footer>Jane Doe on <cite title="Twitter">Twitter</cite></footer>
-						</blockquote>
+					<div class="media">
+						<div class="media-left hidden-xs">
+							<img src="images/guy-image.png" class="img-circle media-object" height="100" width="100" />
+						</div>
+						<div class="media-body">
+							<blockquote class="quote">
+								<p>I've been introduced to more than 10 great international whiskeys I never knew about.</p>
+								<footer>John Doe on <cite title="Twitter">Twitter</cite></footer>
+							</blockquote>
+						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<hr>
 
 		<section class="features">
 			<div class="row">
 				<div class="col-xs-12">
-					<h2 class="text-uppercase">Features:</h2>
+					<div class="page-header">
+						<h2>Features:</h2>
+					</div>
 				</div>
 			</div>
 			<div class="row">
