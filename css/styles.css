@@ -233,3 +233,7 @@ body {
     color: #b52c0f;
     margin-top: 10px;
 }
+
+.feature .label {
+    margin-left: 10px;
+}
